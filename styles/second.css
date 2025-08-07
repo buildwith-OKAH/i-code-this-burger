@@ -1,0 +1,30 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: rgb(233, 233, 233);
+}
+
+#container {
+  width: 100%;
+  height: 80%;
+  border: 5px solid pink;
+  letter-spacing: -0.05ch;
+  margin: 50px;
+}
+
+
+h1 {
+  color: #ef491f;
+  font-weight: 900;
+  font-size: 2.5rem;
+  width: 50%;
+  height: 50%;
+  border: 5px solid pink;
+  /* position: fixed; */
+  /* scroll-padding-inline-end: 0; */
+}
+
+image {
+  width: 50%;
+  /* display: flex; */
+  /* position: absolute; */
+}

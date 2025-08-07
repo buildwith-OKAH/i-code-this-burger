@@ -1,0 +1,79 @@
+* {
+  padding: 0px; 
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ef491f;
+  font-family: 'Oswald', sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.05ch;
+}
+
+header {
+  /* border: 5px solid purple;  */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+}
+
+.first {
+  letter-spacing: -0.5ch;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  /* position: relative;
+  flex-direction: row; */
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul a {
+  padding-right: 20px;
+}
+
+.first-half {
+  width: 50%;
+}
+
+p {
+  width: 530px;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nigeria {
+  width: 50%;
+  font-weight: 900;
+  font-size: 4rem;
+  inline-size: 0rem;
+}
+
+button {
+  color: #ffffff;
+  background-color: #000;
+  border: none;
+  padding: 15px 50px;
+  margin-top: 10px;
+}
+
+button:hover {
+  color: #000;
+  background-color: #ffffff;
+  border: none;
+  transition: 1s;
+}
